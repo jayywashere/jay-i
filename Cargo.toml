@@ -1,0 +1,10 @@
+[package]
+name = "jay-i"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+jstdlib = "0.1.1"
+ollama-rs = { version = "0.3.6", features = ["stream"] }
+tokio = { version = "1.54.1", features = ["full"] }
+tokio-stream = "0.1.19"
